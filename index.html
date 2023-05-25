@@ -1,76 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Christian Gouldy Portfolio</title>
-    <link rel="stylesheet" href="styles/gen_styles.css">
 
-</head>
-<body class="main-body">
-    
-    <div class="header">
-        <div class="logo-name">
-            Christian Gouldy
+    <link rel="stylesheet" href="styles/gen_styles.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/content.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="Home" class="main-body">
+    <div class="out-width">
+        <div class="header">
+        <img class="logo" src="images/logo-cg.png" />
+
+        <div class="logo-name">Christian Gouldy</div>
+
+        <ul class="navigation">
+            <li><a href="#Home" class="nav-link">Home</a></li>
+            <li><a href="#Projects" class="nav-link">Projects</a></li>
+            <li><a href="#Cv" class="nav-link">CV</a></li>
+            <li><a href="#Contact" class="nav-link">Contact Me</a></li>
+        </ul>
         </div>
-        <div class="navigation-bar">
-            Home - Projects - Resume - About Me - Contact Me
-        </div>
-    </div>
-    <div class="intro">
-        <p class="header-name">
-            I'm <b>Christian Gouldy</b>,
-            <p class="header-discription">a Full Stack Softeware Engineer passionate about crafting innovative and impactful 
-            digital solutions that enhance user experiences and solve complex problems. 
-            <br>Let's bring your ideas to life together.
-            </p>
+
+        <div class="intro">
+        <p class="intro-name">
+            <b>Christian Gouldy</b>
         </p>
-    </div>
-
-    <div class="content">
-        <div class="projects">
-            <div class="project">
-                
-            </div>
-            
+        <p class="intro-discription">
+            A Full Stack Softeware Engineer passionate about crafting innovative and
+            impactful digital solutions that enhance user experiences and solve
+            complex problems. Let's bring your ideas to life together.
+        </p>
         </div>
+
+        <div class="content">
         <div class="about-me">
-            <div class="who-am-i">
-
+            <div class="hero-img"><img src="images/IMG_9890.png"></div>
+            <div class="container">
+                <ul class="skills">
+                    <h2>Skills</h2>
+                    <li>Javascript</li>
+                    <li>Python</li>
+                    <li>Git/Github</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
             </div>
-            <div class="my-intrests">
-
+            <div class="intrests">
+                <ul class="skills">
+                    <h2>Skills</h2>
+                    <li>Javascript</li>
+                    <li>Python</li>
+                    <li>Git/Github</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
             </div>
             <div class="follow-me">
-                
+                <ul class="skills">
+                    <h2>Skills</h2>
+                    <li>Javascript</li>
+                    <li>Python</li>
+                    <li>Git/Github</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
             </div>
         </div>
-    </div>
 
-    <div class="footer">
-        <div class="contact-me">
-                <form>
-                    <p>
-                        Contact Me
-                    </p>
-                    <textarea name="contact-me-form">
-                        Connect with me, here...
-                    </textarea>
-                    <br>
-                    <input type="text" name="email" placeholder="Your Email"/>
-                    <br>
-                    <input type="submit" name="send-contact" value="Send"/>
-                </form>
-        </div>
-        <div class="footer-follow-me">
-                
-        </div>
-        <div class="foter-navigation">
-                
-        </div>
-                
-    </div>
+        <div id="Projects" class="projects">
+            <div class="project">
+            <img src="images/project-filler-image.png" class="project-image" />
 
-</body>
+            <div class="project-text">
+                <h1>Project 1</h1>
+                <p>Project text and expliantion</p>
+            </div>
+            </div>
+
+            <div class="project">
+            <img src="images/project-filler-image.png" class="project-image" />
+
+            <div class="project-text">
+                <h1>Project 1</h1>
+                <p>Project text and expliantion</p>
+            </div>
+            </div>
+
+            <div class="project">
+            <img src="images/project-filler-image.png" class="project-image" />
+
+            <div class="project-text">
+                <h1>Project 1</h1>
+                <p>Project text and expliantion</p>
+            </div>
+            </div>
+
+            <div class="project">
+            <img src="images/project-filler-image.png" class="project-image" />
+
+            <div class="project-text">
+                <h1>Project 1</h1>
+                <p>Project text and expliantion</p>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <div id="Contact" class="footer">
+        <h1>Contact Me</h1>
+
+        <form class="contact-me" action="/form/submit" method="post">
+            <textarea class="contact-me-form" name="textarea" rows="5" cols="40">
+    Connect with me, here...</textarea
+            >
+
+            <input
+            class="input-email"
+            type="text"
+            name="email"
+            placeholder="Your Email"
+            />
+
+            <input
+            class="send-button"
+            type="submit"
+            name="send-contact"
+            value="Submit"
+            />
+        </form>
+
+        <div class="footer-follow-me"></div>
+
+        <ul class="footer-navigation">
+            <li><a href="#Home" class="fnav-link">Home</a></li>
+            <li><a href="#Projects" class="fnav-link">Projects</a></li>
+            <li><a href="#Cv" class="fnav-link">CV</a></li>
+            <li><a href="#Contact" class="fnav-link">Contact Me</a></li>
+        </ul>
+
+        <p class="copyright">&copy; 2023 Christian Gouldy</p>
+        </div>
+    </div>
+  </body>
 </html>
