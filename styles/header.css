@@ -3,8 +3,8 @@
 		justify-content: space-between;
 		height: 40px;
 		align-items: center;
-		background-color: white;
-		color: black;
+		background-color: rgb(24,27,34);
+		color: rgb(255, 255, 255);
 		position: sticky;
 		top: 0px;
 		border-bottom-left-radius: 20px;
@@ -57,7 +57,7 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-	background-color: rgb(41, 41, 41);
-	color: white;
+	background-color: rgb(255, 255, 255);
+	color: rgb(24,27,34);
 	border-radius: 5px;
 }
