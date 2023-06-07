@@ -10,6 +10,16 @@
   padding: 15px;
 }
 
+@media (max-width: 720px) {	
+	.about-me {
+		grid-auto-flow: column;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+    vertical-align: middle;
+	}
+}
+
 .image-container{
   display: flex;
   align-items: top;
@@ -64,7 +74,6 @@
   margin: 0px;
   padding: 20px;
 }
-
 
 
 #Projects {
